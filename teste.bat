@@ -14,9 +14,9 @@ set second=%datetime:~12,2%
 echo "Realizando o backup do save do jogo"
 
 REM Recebendo o local onde esta o arquivo arquivo a ser compactado 
-set sourceFolder=L:\GITHUB\workspaceTest\automacaoRotina\pastaTeste
+set sourceFolder=C:\Users\halla\Zomboid\Saves
 REM Recebendo o local onde vai ser salvo o arquivo
-set destinationFolder=L:\GITHUB\workspaceTest\automacaoRotina\destino
+set destinationFolder=B:\JOGOS\Zomboid\Saves
 REM Recebendo um nome unico
 set zipFileName=hallan_%year%-%month%-%day%_%hour%-%minute%-%second%.zip
 
