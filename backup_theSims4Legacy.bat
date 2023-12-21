@@ -23,5 +23,5 @@ set zipFileName=hallan_%year%-%month%-%day%_%hour%-%minute%-%second%.zip
 REM Realizando o compactamento da pasta com o programa 7-zip e ja salvando em um novo lugar a pasta
 "P:\Program Files\7-Zip\7z.exe" a -r "%destinationFolder%\%zipFileName%" "%sourceFolder%\*.*"
 
-cd J:\ea\The Sims 4\Game\Bin\
-start TS4_x64.exe
+
+start theSims4Legacy

@@ -14,14 +14,14 @@ set second=%datetime:~12,2%
 echo "Realizando o backup do save do jogo"
 
 REM Recebendo o local onde esta o arquivo arquivo a ser compactado 
-set sourceFolder=C:\Users\halla\OneDrive\Documentos\Electronic Arts\The Sims 4\saves
+set sourceFolder=C:\Users\halla\Zomboid\Saves
 REM Recebendo o local onde vai ser salvo o arquivo
-set destinationFolder=B:\JOGOS\The Sims 4\Saves
+set destinationFolder=B:\JOGOS\Zomboid\Saves
 REM Recebendo um nome unico
 set zipFileName=hallan_%year%-%month%-%day%_%hour%-%minute%-%second%.zip
 
 REM Realizando o compactamento da pasta com o programa 7-zip e ja salvando em um novo lugar a pasta
 "P:\Program Files\7-Zip\7z.exe" a -r "%destinationFolder%\%zipFileName%" "%sourceFolder%\*.*"
 
-cd J:\ea\The Sims 4\Game\Bin\
-start TS4_x64.exe
+
+start ProjectZomboid
